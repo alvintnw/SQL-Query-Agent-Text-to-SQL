@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location 'c:\\\\SQL Query Agent \\(Text-to-SQL\\)'; python -c \"import sqlite3; c=sqlite3\\.connect\\('sales\\.db'\\); print\\(c\\.execute\\('SELECT name FROM sqlite_master'\\)\\.fetchall\\(\\)\\); print\\(c\\.execute\\('SELECT COUNT\\(\\*\\) FROM orders'\\)\\.fetchone\\(\\)\\[0\\]\\); c\\.close\\(\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
